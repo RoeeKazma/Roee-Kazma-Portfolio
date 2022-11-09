@@ -202,7 +202,7 @@ export default function Home() {
     {/* FOOTER */}
 
     <section>
-    <h2 className=' pt-10 pb-12 text-center text-5xl py-2 text-teal-600 font-medium md:text-5xl dark:text-teal-400'>Roee Kazma Portfolio</h2>
+    <h2 className=' pt-10 pb-12 text-center text-5xl py-2 text-teal-600 font-medium md:text-5xl dark:text-teal-400'>Roee Kazma Portfolio.</h2>
 
     </section>
 
