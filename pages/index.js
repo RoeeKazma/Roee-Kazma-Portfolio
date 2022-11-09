@@ -111,28 +111,29 @@ export default function Home() {
     </div>
     <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap ">
             <div className="basis-1/3 flex-1 ">
-              <a href="https://github.com/RoeeKazma/React-Hotel-Project" target={"_blank"} rel="noreferrer" className=' group'>
+              <a href="https://github.com/RoeeKazma/React-Hotel-Project" target={"_blank"} rel="noreferrer" className=' group relative'>
                 <Image
                 className="rounded-lg object-cover h-full group-hover:opacity-10"
                 src={web1}
               />
-               <div
-              className="transition-transform transform opacity-0 group-hover:opacity-100 group-hover:-translate-y-80 group-hover:translate-x-80 ">
+              <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-6xl text-white font-semibold ">
                 <p className=' text-blue-500 font-bold text-3xl'>React</p>
                 <p className=' text-blue-400 font-bold text-3xl'>NodeJs</p>
                 <p className=' text-blue-300 font-bold text-3xl'>MongoDB</p>
                 <p className=' text-blue-200 font-bold text-3xl'>REST Api</p>
-            </div>
+                </div>
+              
+                
+            
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-            <a href="https://github.com/RoeeKazma/royal-crm" target={"_blank"} rel="noreferrer" className=' group'>
+            <a href="https://github.com/RoeeKazma/royal-crm" target={"_blank"} rel="noreferrer" className=' group relative'>
                 <Image
                 className="rounded-lg object-cover h-full group-hover:opacity-10"
                 src={web2}
               />
-                <div
-              className="transition-transform transform opacity-0 group-hover:opacity-100 group-hover:-translate-y-80 group-hover:translate-x-80 ">
+                 <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-6xl text-white font-semibold ">
                 <p className=' text-green-500 font-bold text-3xl'>Angular</p>
                 <p className=' text-green-400 font-bold text-3xl'>Firebase</p>
                 <p className=' text-green-300 font-bold text-3xl'>Typescript</p>
@@ -140,13 +141,12 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-            <a href="https://github.com/RoeeKazma/Mardi-Gras" target={"_blank"} rel="noreferrer" className=' group'>
+            <a href="https://github.com/RoeeKazma/Mardi-Gras" target={"_blank"} rel="noreferrer" className=' group relative'>
                 <Image
                 className="rounded-lg object-cover h-full group-hover:opacity-10"
                 src={web3}
               />
-                  <div
-              className="transition-transform transform opacity-0 group-hover:opacity-100 group-hover:-translate-y-80 group-hover:translate-x-80 ">
+                 <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-6xl text-white font-semibold ">
                 <p className=' text-purple-500 font-bold text-3xl'>HTML5</p>
                 <p className=' text-yellow-500 font-bold text-3xl'>SASS</p>
                 <p className=' text-green-500 font-bold text-3xl'>Javascript</p>
@@ -154,13 +154,12 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-            <a href="https://github.com/RoeeKazma/kanban-LocalStorage/tree/WorkingBranch" target={"_blank"} rel="noreferrer" className=' group'>
+            <a href="https://github.com/RoeeKazma/kanban-LocalStorage/tree/WorkingBranch" target={"_blank"} rel="noreferrer" className=' group relative'>
                 <Image
                 className="rounded-lg object-cover h-full group-hover:opacity-10"
                 src={web4}
               />
-                 <div
-              className="transition-transform transform opacity-0 group-hover:opacity-100 group-hover:-translate-y-80 group-hover:translate-x-80 ">
+                  <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-6xl text-white font-semibold ">
                 <p className=' text-red-500 font-bold text-3xl'>HTML5</p>
                 <p className=' text-yellow-500 font-bold text-3xl'>CSS</p>
                 <p className=' text-green-700 font-bold text-3xl'>Javascript</p>
@@ -168,13 +167,12 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-            <a href="https://github.com/RoeeKazma/MP3-DOM" target={"_blank"} rel="noreferrer" className=' group'>
+            <a href="https://github.com/RoeeKazma/MP3-DOM" target={"_blank"} rel="noreferrer" className=' group relative'>
                 <Image
                 className="rounded-lg object-cover h-full group-hover:opacity-10"
                 src={web5}
               />
-                 <div
-              className="transition-transform transform opacity-0 group-hover:opacity-100 group-hover:-translate-y-80 group-hover:translate-x-80 ">
+                 <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-6xl text-white font-semibold ">
                 <p className=' text-gray-500 font-bold text-3xl'>HTML5</p>
                 <p className=' text-gray-400 font-bold text-3xl'>CSS</p>
                 <p className=' text-gray-300 font-bold text-3xl'>Javascript</p>
@@ -182,13 +180,12 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-            <a href="https://github.com/RoeeKazma/ReactNodeJsProject" target={"_blank"} rel="noreferrer" className=' group'>
+            <a href="https://github.com/RoeeKazma/ReactNodeJsProject" target={"_blank"} rel="noreferrer" className=' group relative'>
                 <Image
                 className="rounded-lg object-cover h-full min-w-full group-hover:opacity-10"
                 src={web6}
               />
-                   <div
-              className="transition-transform transform opacity-0 group-hover:opacity-100 group-hover:-translate-y-80 group-hover:translate-x-80 ">
+                  <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-6xl text-white font-semibold ">
                   <p className=' text-blue-500 font-bold text-3xl'>React</p>
                 <p className=' text-blue-400 font-bold text-3xl'>NodeJs</p>
                 <p className=' text-blue-300 font-bold text-3xl'>MongoDB</p>
@@ -202,11 +199,10 @@ export default function Home() {
     {/* FOOTER */}
 
     <section>
+
     <h2 className=' pt-10 pb-12 text-center text-5xl py-2 text-teal-600 font-medium md:text-5xl dark:text-teal-400'>Roee Kazma Portfolio.</h2>
-
-    </section>
-
     
+    </section>
       </main>
     </div>
   )
