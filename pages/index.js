@@ -35,7 +35,7 @@ export default function Home() {
       <h1 className=' text-xl font-burtons'>Roee Kazma</h1>
       <ul className=' flex items-center gap-5'>
         <li>{darkMode ? <BsSun className=' cursor-pointer text-2xl' onClick={() => setDarkMode(!darkMode)}/> : <BsFillMoonStarsFill className=' cursor-pointer text-2xl' onClick={() => setDarkMode(!darkMode)}/>}</li>
-        <li><a className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md' href="https://www.linkedin.com/in/roee-kazma-a48858222/overlay/1635507565895/single-media-viewer/" target={"_blank"}>Resume</a></li>
+        <li><a className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md' href="https://www.linkedin.com/in/roee-kazma-a48858222/overlay/1635507565895/single-media-viewer/" target={"_blank"} rel="noopener">Resume</a></li>
       </ul>
     </nav>
     <div className=' text-center p-10'>
@@ -45,9 +45,9 @@ export default function Home() {
       I am a discharged combat soldier from the nahal brigade and i believe that <span className=' text-teal-400'>hard work</span> and <span className=' text-teal-400'>high motivation</span> are the two most important things about me.</p>
     </div>
     <div className=' text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
-    <a href="https://github.com/RoeeKazma?tab=repositories" target={"_blank"}><AiFillGithub/></a>
-    <a href="https://www.linkedin.com/in/roee-kazma-a48858222/" target={"_blank"}><AiFillLinkedin/></a>
-    <a href="mailto:roeekazma@gmail.com" target={"_blank"}><AiFillMail/></a>
+    <a href="https://github.com/RoeeKazma?tab=repositories" target={"_blank"} rel="noopener"><AiFillGithub/></a>
+    <a href="https://www.linkedin.com/in/roee-kazma-a48858222/" target={"_blank"} rel="noopener"><AiFillLinkedin/></a>
+    <a href="mailto:roeekazma@gmail.com" target={"_blank"} rel="noopener"><AiFillMail/></a>
     </div>
     <div className=' relative mx-auto  w-80 h-80 mt-20 mb-10 md:w-96 md:h-96'>
        <Image src={ProfileImg} className=' rounded-full ' layout='fill' objectFit='cover'/>
@@ -126,7 +126,7 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-            <a href="https://github.com/RoeeKazma/royal-crm" target={"_blank"} className=' group'>
+            <a href="https://github.com/RoeeKazma/royal-crm" target={"_blank"} rel="noopener" className=' group'>
                 <Image
                 className="rounded-lg object-cover h-full group-hover:opacity-10"
                 src={web2}
@@ -154,7 +154,7 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-            <a href="https://github.com/RoeeKazma/kanban-LocalStorage/tree/WorkingBranch" target={"_blank"} className=' group'>
+            <a href="https://github.com/RoeeKazma/kanban-LocalStorage/tree/WorkingBranch" target={"_blank"} rel="noopener" className=' group'>
                 <Image
                 className="rounded-lg object-cover h-full group-hover:opacity-10"
                 src={web4}
@@ -168,7 +168,7 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-            <a href="https://github.com/RoeeKazma/MP3-DOM" target={"_blank"} className=' group'>
+            <a href="https://github.com/RoeeKazma/MP3-DOM" target={"_blank"} rel="noopener" className=' group'>
                 <Image
                 className="rounded-lg object-cover h-full group-hover:opacity-10"
                 src={web5}
@@ -182,7 +182,7 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-            <a href="https://github.com/RoeeKazma/ReactNodeJsProject" target={"_blank"} className=' group'>
+            <a href="https://github.com/RoeeKazma/ReactNodeJsProject" target={"_blank"} rel="noopener" className=' group'>
                 <Image
                 className="rounded-lg object-cover h-full min-w-full group-hover:opacity-10"
                 src={web6}
