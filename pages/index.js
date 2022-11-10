@@ -31,8 +31,9 @@ export default function Home() {
        {/* FRONT PAGE  */}
 
       <section className='min-h-screen'>
+
     <nav className=' py-10 mb-12 flex justify-between dark:text-white'>
-      <h1 className=' text-xl font-burtons'>Roee Kazma</h1>
+      <h1 className=' text-xl font-burtons'>Portfolio - R . K</h1>
       <ul className=' flex items-center gap-5'>
         <li>{darkMode ? <BsSun className=' cursor-pointer text-2xl' onClick={() => setDarkMode(!darkMode)}/> : <BsFillMoonStarsFill className=' cursor-pointer text-2xl' onClick={() => setDarkMode(!darkMode)}/>}</li>
         <li><a className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md' href="https://www.linkedin.com/in/roee-kazma-a48858222/overlay/1635507565895/single-media-viewer/" target={"_blank"} rel="noreferrer">Resume</a></li>
@@ -42,7 +43,7 @@ export default function Home() {
       <h2 className=' text-5xl py-2 text-teal-600 font-medium md:text-6xl dark:text-teal-400'>Roee Kazma</h2>
       <h3 className=' text-2xl py-2 md:text-3xl dark:text-white'>Full-Stack Developer</h3>
       <p className=' text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-200'>After an 8 month <span className=' text-teal-400'>Full-Stack</span> bootcamp, I am ready for my first adventure in the industry.
-      I am a discharged combat soldier from the nahal brigade and i believe that <span className=' text-teal-400'>hard work</span> and <span className=' text-teal-400'>high motivation</span> are the two most important things about me.</p>
+      I am a discharged combat soldier from the nahal brigade and I believe that <span className=' text-teal-400'>hard work</span> and <span className=' text-teal-400'>high motivation</span> are the two most important things about me.</p>
     </div>
     <div className=' text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
     <a href="https://github.com/RoeeKazma?tab=repositories" target={"_blank"} rel="noreferrer"><AiFillGithub/></a>
@@ -50,7 +51,7 @@ export default function Home() {
     <a href="mailto:roeekazma@gmail.com" target={"_blank"} rel="noreferrer"><AiFillMail/></a>
     </div>
     <div className=' relative mx-auto  w-80 h-80 mt-20 mb-10 md:w-96 md:h-96'>
-       <Image src={ProfileImg} className=' rounded-full ' layout='fill' objectFit='cover'/>
+       <Image src={ProfileImg} className=' rounded-full ' layout='fill' objectFit='cover' alt="Profile image"/>
     </div>
       </section>
 
@@ -60,7 +61,7 @@ export default function Home() {
       <div className=' text-center'>
         <h3 className='  text-3xl py-1 md:text-4xl dark:text-white'>What I bring with me</h3>
         <p className=' text-md py-2 leading-8 text-gray-600 max-w-2xl mx-auto md:text-xl dark:text-gray-200'>
-          From the technological side to the social side,<span className=' text-teal-400'> I am eager to learn more and do better every day,</span> i take alot of value and pride from the <span className=' text-teal-400'>bootcamp </span>i tended and my <span className=' text-teal-400'>millitary service </span>and i try to implement my learnings to my work ethic.
+        From the technological side to the social side,<span className=' text-teal-400'> I am eager to learn more and do better every day.</span> I take a lot of value and pride from the <span className=' text-teal-400'>bootcamp </span>I attended  and my <span className=' text-teal-400'>military  service </span>and I try to implement my learning into my work ethic.
         </p>
          <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Here are some of the skills I offer:
@@ -69,7 +70,7 @@ export default function Home() {
 
       <div className=' lg:flex gap-10'>
         <div className=' text-center shadow-lg p-10 rounded-xl my-10 bg-gradient-to-tr from-blue-200 to-teal-200 lg:w-1/3'>
-          <Image src={design}  width={100} height={100} className='m-auto'/> 
+          <Image src={design}  width={100} height={100} className='m-auto' alt="Design image"/> 
           <h4 className=' py-4 text-xl font-medium'>Front End Technologies:</h4>
           <p className=' text-gray-800 py-1'>ReactJs</p>
           <p className=' text-gray-800 py-1'>HTML5</p>
@@ -79,7 +80,7 @@ export default function Home() {
         </div>
 
         <div className=' text-center align shadow-lg p-10 rounded-xl my-10 bg-gradient-to-br from-blue-200 to-teal-200 lg:w-1/3'>
-          <Image src={code}  width={100} height={100} className='m-auto'/> 
+          <Image src={code}  width={100} height={100} className='m-auto' alt="Code image"/> 
           <h4 className=' py-4 text-xl font-medium'> Back End Technologies:</h4>
           <p className=' text-gray-800 py-1'>NodeJs</p>
           <p className=' text-gray-800 py-1'>MongoDB</p>
@@ -88,11 +89,11 @@ export default function Home() {
         </div>
 
         <div className=' text-center shadow-lg p-10 rounded-xl my-10 bg-gradient-to-tr from-blue-200 to-teal-200 lg:w-1/3'>
-          <Image src={consulting}  width={100} height={100} className='m-auto'/> 
+          <Image src={consulting}  width={100} height={100} className='m-auto' alt="Consulting image"/> 
           <h4 className=' py-4 text-xl font-medium'>Social Skills:</h4>
           <p className=' text-gray-800 py-1 '><span className=' text-gray-900 font-medium '>Fast Learner</span>, can get my head around new concepts quickly</p>
           <p className=' text-gray-800 py-1 '><span className=' text-gray-900 font-medium '>Motivated</span>, always wanting to be the best at what I do</p>
-          <p className=' text-gray-800 py-1 '><span className=' text-gray-900 font-medium '>Great Team Player</span>, i know the value of having a good reletionship with my co-workers</p>
+          <p className=' text-gray-800 py-1 '><span className=' text-gray-900 font-medium '>Great Team Player</span>, I know the value of having a good relationship with my co-workers</p>
         </div>
       </div>
     </section>
@@ -103,7 +104,7 @@ export default function Home() {
     <div className=' text-center'>
       <h3 className=' text-3xl py-1 md:text-4xl dark:text-white'>Projects</h3>
       <p className=' text-md py-2 leading-8 text-gray-600 max-w-xl mx-auto md:text-xl dark:text-gray-200'>
-        Throughout my time at the bootcamp, we had to finish some projects to show our newly aquired skills, here are some of them
+       Throughout my time at the bootcamp, we had to finish some projects to show our newly acquired skills. Here are some of them 
       </p>
          <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-500">
               *Hover over a project to see the technologies used in it and click to view the code on github*
@@ -115,8 +116,9 @@ export default function Home() {
                 <Image
                 className="rounded-lg object-cover h-full group-hover:opacity-10"
                 src={web1}
+                alt="Project 1"
               />
-              <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-6xl text-white font-semibold ">
+              <div className="opacity-0 md:hover:opacity-100 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-6xl text-white font-semibold ">
                 <p className=' text-blue-500 font-bold text-3xl'>React</p>
                 <p className=' text-blue-400 font-bold text-3xl'>NodeJs</p>
                 <p className=' text-blue-300 font-bold text-3xl'>MongoDB</p>
@@ -132,8 +134,9 @@ export default function Home() {
                 <Image
                 className="rounded-lg object-cover h-full group-hover:opacity-10"
                 src={web2}
+                alt="Project 2"
               />
-                 <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-6xl text-white font-semibold ">
+                 <div className="opacity-0 md:hover:opacity-100 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-6xl text-white font-semibold ">
                 <p className=' text-green-500 font-bold text-3xl'>Angular</p>
                 <p className=' text-green-400 font-bold text-3xl'>Firebase</p>
                 <p className=' text-green-300 font-bold text-3xl'>Typescript</p>
@@ -145,8 +148,9 @@ export default function Home() {
                 <Image
                 className="rounded-lg object-cover h-full group-hover:opacity-10"
                 src={web3}
+                alt="Project 3"
               />
-                 <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-6xl text-white font-semibold ">
+                 <div className="opacity-0 md:hover:opacity-100 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-6xl text-white font-semibold ">
                 <p className=' text-purple-500 font-bold text-3xl'>HTML5</p>
                 <p className=' text-yellow-500 font-bold text-3xl'>SASS</p>
                 <p className=' text-green-500 font-bold text-3xl'>Javascript</p>
@@ -158,8 +162,9 @@ export default function Home() {
                 <Image
                 className="rounded-lg object-cover h-full group-hover:opacity-10"
                 src={web4}
+                alt="Project 4"
               />
-                  <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-6xl text-white font-semibold ">
+                  <div className="opacity-0 md:hover:opacity-100 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-6xl text-white font-semibold ">
                 <p className=' text-red-500 font-bold text-3xl'>HTML5</p>
                 <p className=' text-yellow-500 font-bold text-3xl'>CSS</p>
                 <p className=' text-green-700 font-bold text-3xl'>Javascript</p>
@@ -171,8 +176,9 @@ export default function Home() {
                 <Image
                 className="rounded-lg object-cover h-full group-hover:opacity-10"
                 src={web5}
+                alt="Project 5"
               />
-                 <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-6xl text-white font-semibold ">
+                 <div className="opacity-0 md:hover:opacity-100 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-6xl text-white font-semibold ">
                 <p className=' text-gray-500 font-bold text-3xl'>HTML5</p>
                 <p className=' text-gray-400 font-bold text-3xl'>CSS</p>
                 <p className=' text-gray-300 font-bold text-3xl'>Javascript</p>
@@ -184,8 +190,9 @@ export default function Home() {
                 <Image
                 className="rounded-lg object-cover h-full min-w-full group-hover:opacity-10"
                 src={web6}
+                alt="Project 6"
               />
-                  <div className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-6xl text-white font-semibold ">
+                  <div className="opacity-0 md:hover:opacity-100 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-6xl text-white font-semibold ">
                   <p className=' text-blue-500 font-bold text-3xl'>React</p>
                 <p className=' text-blue-400 font-bold text-3xl'>NodeJs</p>
                 <p className=' text-blue-300 font-bold text-3xl'>MongoDB</p>
@@ -200,7 +207,10 @@ export default function Home() {
 
     <section>
 
-    <h2 className=' pt-10 pb-12 text-center text-5xl py-2 text-teal-600 font-medium md:text-5xl dark:text-teal-400'>Roee Kazma Portfolio.</h2>
+    <div className=' flex justify-between py-8'>
+    <h1 className=' text-xl font-burtons text-teal-600 dark:text-teal-400 ml-6'>Call Me : +972 52-8669118</h1>
+    <p className='text-xl font-burtons text-teal-600 dark:text-teal-400 mr-6' >This website was made using - NextJS and TailwindCSS</p>
+    </div>
     
     </section>
       </main>
