@@ -92,7 +92,7 @@ export default function Home() {
           <Image src={consulting}  width={100} height={100} className='m-auto' alt="Consulting image"/> 
           <h4 className=' py-4 text-xl font-medium'>Social Skills:</h4>
           <p className=' text-gray-800 py-1 '><span className=' text-gray-900 font-medium '>Fast Learner</span>, can get my head around new concepts quickly</p>
-          <p className=' text-gray-800 py-1 '><span className=' text-gray-900 font-medium '>Motivated</span>, always wanting to be the best at what I do</p>
+          <p className=' text-gray-800 py-1 '><span className=' text-gray-900 font-medium '>Motivated</span>, always seeking to be the best at what I do</p>
           <p className=' text-gray-800 py-1 '><span className=' text-gray-900 font-medium '>Great Team Player</span>, I know the value of having a good relationship with my co-workers</p>
         </div>
       </div>
@@ -207,9 +207,9 @@ export default function Home() {
 
     <section>
 
-    <div className=' flex justify-between py-8'>
-    <h1 className=' text-xl font-burtons text-teal-600 dark:text-teal-400 ml-6'>Call Me : +972 52-8669118</h1>
-    <p className='text-xl font-burtons text-teal-600 dark:text-teal-400 mr-6' >This website was made using - NextJS and TailwindCSS</p>
+    <div className=' flex flex-col text-center py-8 '>
+    <h1 className=' text-xl font-burtons text-teal-600 dark:text-teal-400 ml-6 mb-2'>Call Me : +972 52-8669118</h1>
+    <p className='text-xl font-burtons text-teal-600 dark:text-teal-400  mb-2' >This website was made using - NextJS and TailwindCSS</p>
     </div>
     
     </section>
