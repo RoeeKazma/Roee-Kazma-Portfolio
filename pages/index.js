@@ -42,8 +42,8 @@ export default function Home() {
     <div className=' text-center p-10'>
       <h2 className=' text-5xl py-2 text-teal-600 font-medium md:text-6xl dark:text-teal-400'>Roee Kazma</h2>
       <h3 className=' text-2xl py-2 md:text-3xl dark:text-white'>Full-Stack Developer</h3>
-      <p className=' text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-200'>After an 8 month <span className=' text-teal-400'>Full-Stack</span> bootcamp, I am ready for my first adventure in the industry.
-      I am a discharged combat soldier from the nahal brigade and I believe that <span className=' text-teal-400'>hard work</span> and <span className=' text-teal-400'>high motivation</span> are the two most important things about me.</p>
+      <p className=' text-md py-5 leading-8 text-gray-800 md:text-xl max-w-2xl mx-auto dark:text-gray-200'>After an 8-month <span className=' text-teal-400'>Full-Stack</span> Bootcamp, I am ready for my first adventure in the industry.
+      I am a discharged combat soldier from the Nahal brigade and my two most valuable qualities are  <span className=' text-teal-400'>hard work</span> and <span className=' text-teal-400'>motivation</span></p>
     </div>
     <div className=' text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
     <a href="https://github.com/RoeeKazma?tab=repositories" target={"_blank"} rel="noreferrer"><AiFillGithub/></a>
@@ -61,7 +61,8 @@ export default function Home() {
       <div className=' text-center'>
         <h3 className='  text-3xl py-1 md:text-4xl dark:text-white'>What I bring with me</h3>
         <p className=' text-md py-2 leading-8 text-gray-600 max-w-2xl mx-auto md:text-xl dark:text-gray-200'>
-        From the technological side to the social side,<span className=' text-teal-400'> I am eager to learn more and do better every day.</span> I take a lot of value and pride from the <span className=' text-teal-400'>bootcamp </span>I attended  and my <span className=' text-teal-400'>military  service </span>and I try to implement my learning into my work ethic.
+        Every day, <span className=' text-teal-400'> I strive to learn more and constantly improve</span>, from the technological front to the social front. 
+        I take a lot of value and pride from the <span className=' text-teal-400'>Bootcamp </span>and <span className=' text-teal-400'>military service </span> I attended and I try to implement my learning into my work ethic.
         </p>
          <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Here are some of the skills I offer:
@@ -91,8 +92,8 @@ export default function Home() {
         <div className=' text-center shadow-lg p-10 rounded-xl my-10 bg-gradient-to-tr from-blue-200 to-teal-200 lg:w-1/3'>
           <Image src={consulting}  width={100} height={100} className='m-auto' alt="Consulting image"/> 
           <h4 className=' py-4 text-xl font-medium'>Social Skills:</h4>
-          <p className=' text-gray-800 py-1 '><span className=' text-gray-900 font-medium '>Fast Learner</span>, can get my head around new concepts quickly</p>
-          <p className=' text-gray-800 py-1 '><span className=' text-gray-900 font-medium '>Motivated</span>, always seeking to be the best at what I do</p>
+          <p className=' text-gray-800 py-1 '><span className=' text-gray-900 font-medium '>Fast Learner</span>, I am able to grasp new concepts quickly</p>
+          <p className=' text-gray-800 py-1 '><span className=' text-gray-900 font-medium '>Motivated</span>, Always seeking to be the best at what I do</p>
           <p className=' text-gray-800 py-1 '><span className=' text-gray-900 font-medium '>Great Team Player</span>, I know the value of having a good relationship with my co-workers</p>
         </div>
       </div>
