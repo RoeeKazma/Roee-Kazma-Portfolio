@@ -120,6 +120,7 @@ export default function Home() {
                 alt="Project 1"
               />
               <div className="opacity-0 md:hover:opacity-100 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-6xl text-white font-semibold ">
+                <h1 className='text-white font-bold mb-5'>Booking Clone</h1>
                 <p className=' text-blue-500 font-bold text-3xl'>React</p>
                 <p className=' text-blue-400 font-bold text-3xl'>NodeJs</p>
                 <p className=' text-blue-300 font-bold text-3xl'>MongoDB</p>
@@ -138,6 +139,7 @@ export default function Home() {
                 alt="Project 2"
               />
                  <div className="opacity-0 md:hover:opacity-100 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-6xl text-white font-semibold ">
+                 <h1 className='text-white font-bold mb-5'>Angular CRM</h1>
                 <p className=' text-green-500 font-bold text-3xl'>Angular</p>
                 <p className=' text-green-400 font-bold text-3xl'>Firebase</p>
                 <p className=' text-green-300 font-bold text-3xl'>Typescript</p>
@@ -152,6 +154,7 @@ export default function Home() {
                 alt="Project 3"
               />
                  <div className="opacity-0 md:hover:opacity-100 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-6xl text-white font-semibold ">
+                 <h1 className='text-white font-bold mb-5'>Event Website</h1>
                 <p className=' text-purple-500 font-bold text-3xl'>HTML5</p>
                 <p className=' text-yellow-500 font-bold text-3xl'>SASS</p>
                 <p className=' text-green-500 font-bold text-3xl'>Javascript</p>
@@ -166,6 +169,7 @@ export default function Home() {
                 alt="Project 4"
               />
                   <div className="opacity-0 md:hover:opacity-100 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-6xl text-white font-semibold ">
+                  <h1 className='text-white font-bold mb-5'>To-Do-List</h1>
                 <p className=' text-red-500 font-bold text-3xl'>HTML5</p>
                 <p className=' text-yellow-500 font-bold text-3xl'>CSS</p>
                 <p className=' text-green-700 font-bold text-3xl'>Javascript</p>
@@ -180,6 +184,7 @@ export default function Home() {
                 alt="Project 5"
               />
                  <div className="opacity-0 md:hover:opacity-100 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-6xl text-white font-semibold ">
+                 <h1 className='text-white font-bold mb-5'>Song Orginizer/Player</h1>
                 <p className=' text-gray-500 font-bold text-3xl'>HTML5</p>
                 <p className=' text-gray-400 font-bold text-3xl'>CSS</p>
                 <p className=' text-gray-300 font-bold text-3xl'>Javascript</p>
@@ -194,6 +199,7 @@ export default function Home() {
                 alt="Project 6"
               />
                   <div className="opacity-0 md:hover:opacity-100 duration-300 absolute inset-0 z-10 flex flex-col justify-center items-center text-6xl text-white font-semibold ">
+                  <h1 className='text-white font-bold mb-5'>React CRM</h1>
                   <p className=' text-blue-500 font-bold text-3xl'>React</p>
                 <p className=' text-blue-400 font-bold text-3xl'>NodeJs</p>
                 <p className=' text-blue-300 font-bold text-3xl'>MongoDB</p>
