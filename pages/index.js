@@ -36,7 +36,7 @@ export default function Home() {
       <h1 className=' text-xl font-burtons'>Portfolio - R . K</h1>
       <ul className=' flex items-center gap-5'>
         <li>{darkMode ? <BsSun className=' cursor-pointer text-2xl' onClick={() => setDarkMode(!darkMode)}/> : <BsFillMoonStarsFill className=' cursor-pointer text-2xl' onClick={() => setDarkMode(!darkMode)}/>}</li>
-        <li><a className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md' href="https://www.linkedin.com/in/roee-kazma-a48858222/overlay/1635507565895/single-media-viewer/" target={"_blank"} rel="noreferrer">Resume</a></li>
+        <li><a className=' bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md' href="https://www.linkedin.com/in/roee-kazma-a48858222/overlay/1635507840662/single-media-viewer/" target={"_blank"} rel="noreferrer">Resume</a></li>
       </ul>
     </nav>
     <div className=' text-center p-10'>
