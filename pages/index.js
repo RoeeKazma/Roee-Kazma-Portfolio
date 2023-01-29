@@ -48,7 +48,7 @@ export default function Home() {
               <li>
                 <a
                   className=" bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
-                  href="https://www.linkedin.com/in/roee-kazma-a48858222/overlay/1635507840662/single-media-viewer/"
+                  href="https://www.linkedin.com/in/roee-kazma-a48858222/overlay/1635511040692/single-media-viewer/?profileId=ACoAADgC0NgBp4y8h9LkAHP2pXgkY4U9w4zDKNw"
                   target={"_blank"}
                   rel="noreferrer">
                   Resume
